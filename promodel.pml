@@ -54,14 +54,6 @@ proctype syncUpdate(byte tid){
 
 }
 
-proctype syncOnMessage(){
-printf("")
-}
-
-proctype syncHandleTaskMessage(){
-printf("")
-}
-
 proctype syncUnload(){
 printf("")
 }
