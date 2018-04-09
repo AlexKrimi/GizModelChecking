@@ -61,7 +61,7 @@ printf("")
 // (!END) Task Manager
 
 init{
-byte sampleTid = 1;
-	run(LoadTask(sampleTid));
-	run(TaskReady(sampleTid));
+	byte sampleTid = 1;
+	run LoadTask(sampleTid);
+	run TaskReady(sampleTid)
 }
