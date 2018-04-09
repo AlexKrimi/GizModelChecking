@@ -1,6 +1,7 @@
 
-chan task_channel = [0] of {int};
-
+chan task_channel = [0] of {byte};
+chan capability_channel = [0] of {byte, byte};
+chan task_ready = [0] of {boolean};
 
 int a = 1;
 
